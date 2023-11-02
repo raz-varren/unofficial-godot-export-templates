@@ -4,7 +4,7 @@ Godot is a great, open source, game engine that supports cross compilation for v
 
 That's what this repo is here to solve. Whenever a new stable version of Godot 4 is released, we automatically compile and publish an unofficial set of ARM64 export templates, bundled with the official Godot export templates for that release.
 
-You can download the latest export template bundle [here](https://github.com/raz-varren/unofficial-godot-export-templates/releases/download/4.1.2-stable/Godot_unofficial_v4.1.2-stable_export_templates.tpz). Follow the instructions below for using it. If you are using an older version of Godot 4, you can find the export templates for that version on the [releases page](https://github.com/raz-varren/unofficial-godot-export-templates/releases).
+You can download the latest export template bundle [here](https://github.com/raz-varren/unofficial-godot-export-templates/releases/download/4.1.3-stable/Godot_unofficial_v4.1.3-stable_export_templates.tpz). Follow the instructions below for using it. If you are using an older version of Godot 4, you can find the export templates for that version on the [releases page](https://github.com/raz-varren/unofficial-godot-export-templates/releases).
 
 
 ## How to use
@@ -24,5 +24,5 @@ You can download the latest export template bundle [here](https://github.com/raz
 
 ## Build Bot Stuff
 
-- Build Timestamp (UTC): `2023-10-31T15:52:16`
-- Release Tag: [4.1.2-stable](https://github.com/raz-varren/unofficial-godot-export-templates/releases/tag/4.1.2-stable)
+- Build Timestamp (UTC): `2023-11-02T09:38:34`
+- Release Tag: [4.1.3-stable](https://github.com/raz-varren/unofficial-godot-export-templates/releases/tag/4.1.3-stable)

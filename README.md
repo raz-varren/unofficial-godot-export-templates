@@ -1,15 +1,13 @@
 # Unofficial Godot Export Templates
 
-Godot is a great, open source, game engine that supports cross compilation for various platforms out of the box. Unfortunately, while Godot does have support for ARM64, the official Godot export template bundle does not include a set of export templates for ARM64, and building them yourself can be a difficult and time consuming task.
+Well, as quickly as it was created, this repo is has been made redundant. As of Godot 4.2 the official Godot export templates now include builds for ARM32/ARM64. Since there's really no reason for the bot to keep pushing builds to this repo, I'm going to archive it and shutdown the build bot. I will keep the archive available for anyone who still needs ARM64 export templates for Godot 4.1.x releases.
 
-That's what this repo is here to solve. Whenever a new stable version of Godot 4 is released, we automatically compile and publish an unofficial set of ARM64 export templates, bundled with the official Godot export templates for that release.
-
-You can download the latest export template bundle [here](https://github.com/raz-varren/unofficial-godot-export-templates/releases/download/4.2-stable/Godot_unofficial_v4.2-stable_export_templates.tpz). Follow the instructions below for using it. If you are using an older version of Godot 4, you can find the export templates for that version on the [releases page](https://github.com/raz-varren/unofficial-godot-export-templates/releases).
+Export templates for Godot 4.1.x are available on the [releases page](https://github.com/raz-varren/unofficial-godot-export-templates/releases). Follow the instructions below for using them.
 
 
 ## How to use
 
-1. Download the `tpz` file from the [releases page](https://github.com/raz-varren/unofficial-godot-export-templates/releases) for your version of Godot 4
+1. Download the `tpz` file from the [releases page](https://github.com/raz-varren/unofficial-godot-export-templates/releases) for your version of Godot 4.1.x
 1. On your game dev machine, open your project and from the menu click `Project -> Export`
 1. Under presets click `Add... -> Linux/X11`
 1. Click and enable `Embed PCK`
@@ -22,7 +20,3 @@ You can download the latest export template bundle [here](https://github.com/raz
 1. Select `Binary Format -> Architecture -> arm64`
 1. That's it, you should be able to export `arm64` builds now
 
-## Build Bot Stuff
-
-- Build Timestamp (UTC): `2023-12-01T00:21:53`
-- Release Tag: [4.2-stable](https://github.com/raz-varren/unofficial-godot-export-templates/releases/tag/4.2-stable)
